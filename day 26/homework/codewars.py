@@ -13,7 +13,7 @@
 #     return list(range(n, 0, -1))
 
 # def no_space(x):
-#     x = x.replace(' ','')
+#     x = x.replace(' ','')                new function ragaca.raplace("ragaca","ragac")
 #     return x
 # print(no_space("ahdfgfdhjsds ahgkdsvshh ahgsjg ahsgdadshd ahgs"))   
 
@@ -67,7 +67,6 @@
 #     if upper_count > lower_count:
 #         return s.upper()
 #     return s.lower()
-
 
 
 
