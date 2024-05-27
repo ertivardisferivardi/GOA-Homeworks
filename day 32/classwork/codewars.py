@@ -47,5 +47,31 @@
 #             list.append(str(i))
 #         return  "+".join(list) + " = " + str(sum)
 
+# def to_weird_case(words):
+#     modified_words = []
+#     for letter in words.split():
+#         modified_letters = ""
+#         for i,char in enumerate(letter):
+#             if i % 2 == 0 or i == 0:
+#                 modified_letters += char.upper()
+#             else:
+#                 modified_letters += char.lower()
+#         modified_words.append(modified_letters)            
+#     return " ".join(modified_words)
 
+# def data_reverse(data):
+#     segments = []
+#     for i in range(0, len(data), 8):
+#         segment = data[i:i+8]
+#         segments.append(segment)
 
+#     reversed_segments = []
+#     for segment in reversed(segments):
+#         reversed_segments.append(segment)
+
+#     reversed_data = []
+#     for segment in reversed_segments:
+#         for bit in segment:
+#             reversed_data.append(bit)
+
+#     return reversed_data
